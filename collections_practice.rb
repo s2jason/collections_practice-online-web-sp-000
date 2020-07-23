@@ -1,2 +1,2 @@
 def sort_array_desc(array)
-  return array.
+  return array.sort_by
