@@ -1,3 +1,3 @@
 def sort_array_desc(array)
-  return array.sort.reverse
+  sorted_array = array.sort.reverse
 end
