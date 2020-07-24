@@ -32,7 +32,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|array, index|
-    if #{index[1]
+    if #{index[1] << |array| + "s"
   
     
 
