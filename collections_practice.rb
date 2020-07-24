@@ -31,19 +31,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|array, index|
-    if #{index} = index[1]
-      return #{array[i]
-    else
-      return
-        #{array[i]} + "s" 
-    end
-end    
-
-    
-    
-  
-    
-
+  array.each_with_index.collect {|element, index| element = index == 1 ? element : element << "s"}
 end
-  
